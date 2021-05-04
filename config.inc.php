@@ -7,8 +7,8 @@
  * @version    $Id$
  */
  
- 
- define('__TYPECHO_SECURE__',true);
+/** 开启https */ 
+define('__TYPECHO_SECURE__',true);
 
 /** 定义根目录 */
 define('__TYPECHO_ROOT_DIR__', dirname(__FILE__));
