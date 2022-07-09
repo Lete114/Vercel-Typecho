@@ -1,4 +1,7 @@
 # Vercel-Typecho
+
+![visitor_badge](https://visitor_badge.deta.dev/?pageID=github.Lete114.Vercel-Typecho)
+
 Vercel 免费部署 Typecho 博客 | Vercel Free Deploy Typecho Blog
 
 建议 fork 仓库后改为私有仓库，以免泄露自己的数据库用户名和密码
