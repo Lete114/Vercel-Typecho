@@ -34,14 +34,14 @@ require_once 'Typecho/Common.php';
 Typecho_Common::init();
 
 /** 定义数据库参数 */
-$db = new Typecho_Db('Pdo_Mysql', 'typecho_');
+$db = new Typecho_Db($_ENV["ADAPTER_NAME"], $_ENV["PREFIX"]);
 $db->addServer(array (
-  'host' => '数据库地址',
-  'user' => '数据库用户',
-  'password' => '数据库密码',
-  'charset' => 'utf8mb4',
-  'port' => '3306',
-  'database' => '数据库名',
-  'engine' => 'MyISAM',
+  'host' => $_ENV["HOST"],
+  'user' => $_ENV["USERNAME"],
+  'password' => $_ENV["PASSWORD"],
+  'charset' => $_ENV["CHARSET"],
+  'port' => $_ENV["PORT"],
+  'database' => $_ENV["DATABASE"],
+  'engine' => $_ENV["ENGINE"],
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
