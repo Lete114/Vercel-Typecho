@@ -2,11 +2,12 @@
 
 ![visitor_badge](https://visitor_badge.deta.dev/?pageID=github.Lete114.Vercel-Typecho)
 
+
 Vercel 免费部署 Typecho 博客 | Vercel Free Deploy Typecho Blog
 
-建议 fork 仓库后改为私有仓库，以免泄露自己的数据库用户名和密码
+> **Warning**: 建议 fork 仓库后改为私有仓库，以免泄露自己的数据库**用户名**和**密码**，或者使用读取环境变量的方式读取数据库信息
 
-或者使用读取环境变量的方式读取数据库信息
+
 ```php
 /** 定义数据库参数 */
 $db = new Typecho_Db($_ENV["ADAPTER_NAME"], $_ENV["PREFIX"]);
