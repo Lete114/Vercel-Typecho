@@ -36,12 +36,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'queenie.db.elephantsql.com',
-  'user' => 'bhvicgdh',
-  'password' => 'byQ8c31R4tswc3pA6jwqSi8mI3JK7Xyl',
+  'host' => 'sql.freedb.tech',
+  'user' => 'freedb_naya2016',
+  'password' => '7#qh!bNrnp@BKqx',
   'charset' => 'utf8mb4',
   'port' => '3306',
-  'database' => 'bhvicgdh',
+  'database' => 'freedb_typecho-github',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
