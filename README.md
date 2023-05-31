@@ -1,6 +1,6 @@
 # Vercel-Typecho
 
-![visitor_badge](https://visitor_badge.deta.dev/?pageID=github.Lete114.Vercel-Typecho)
+![visitor_badge](https://visitor-badge.imlete.cn/?id=github.Lete114.Vercel-Typecho)
 
 
 Vercel 免费部署 Typecho 博客 | Vercel Free Deploy Typecho Blog
